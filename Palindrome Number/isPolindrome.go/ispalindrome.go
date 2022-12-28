@@ -1,4 +1,4 @@
-package ispalindrome
+package leetcode
 
 import "strconv"
 

@@ -1,4 +1,4 @@
-package pivot
+package leetcode
 
 func pivotIndex(nums []int) int {
 	var sum, lsum, i int
