@@ -11,3 +11,11 @@ var lengthOfLastWord = function (s) {
   }
   return res.length;
 };
+
+//v.2
+
+var lengthOfLastWord = function(s) {
+    let trimmedString = s.trim();
+    
+    return trimmedString.length - trimmedString.lastIndexOf(' ') - 1;
+};
